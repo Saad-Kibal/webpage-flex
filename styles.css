@@ -10,7 +10,7 @@ body {
 
 
 .section1 {
-    background-color: rgb(177, 177, 177);
+    background-color: #1f2937;
     display: flex;
     flex-direction: column;
     padding: 5px 250px 40px;
@@ -21,16 +21,17 @@ body {
 .header-list {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .links {
     display: flex;
     list-style: none;
-    gap: 6px;
+    gap: 10px;
 }
 .website {
     display: flex;
-    align-items: stretch;
+    align-items: center;
     gap: 20px;
     padding: 70px 0;
 }
@@ -42,8 +43,9 @@ body {
 
 img  {
     height: 250px;
-    flex: 1;
+    flex: 0 1 0;
     align-items: baseline;
+    max-width: 100%;
 }
 
 .awesome button {
@@ -53,4 +55,20 @@ img  {
     border-radius: 5px;
     padding:5px 20px;
     font-weight: bold;
+}
+
+.header-list h2 {
+    color:#F9FAF8;
+    font-size: 28px;
+}
+
+.text {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.awesome h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 800;
 }
