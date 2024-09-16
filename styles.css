@@ -27,6 +27,7 @@ body {
 .links {
     display: flex;
     list-style: none;
+    justify-content: space-between;
     gap: 10px;
 }
 .website {
@@ -143,15 +144,12 @@ body {
     padding: 10px 50px;
     background-color: #0aa3eb;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-content: center;
     border-radius: 10px;
     flex: 1;
 }
 
-.COME {
-    padding: 0;
-}
 .COME .JOIN {
     color: #e5e7eb;
     font-size: 18px;
@@ -162,4 +160,12 @@ body {
     color: #e5e7eb;
     font-size: 16px;
     font-weight: 300;
+}
+
+.footer {
+    padding: 3px 250px 3px;
+    background-color: #b4b4b4;
+    color: #f8f8f8;
+    flex: 1;
+    text-align: center;
 }
