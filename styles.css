@@ -1,0 +1,56 @@
+body {
+    font-family: "Rubik";
+    display: flex;
+    padding: 0%;
+    margin: 0;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+
+
+.section1 {
+    background-color: rgb(177, 177, 177);
+    display: flex;
+    flex-direction: column;
+    padding: 5px 250px 40px;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.header-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    list-style: none;
+    gap: 6px;
+}
+.website {
+    display: flex;
+    align-items: stretch;
+    gap: 20px;
+    padding: 70px 0;
+}
+
+.awesome {
+    flex: 1;
+    align-items: flex-start;
+}
+
+img  {
+    height: 250px;
+    flex: 1;
+    align-items: baseline;
+}
+
+.awesome button {
+    background-color: #0aa3eb;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    padding:5px 20px;
+    font-weight: bold;
+}
