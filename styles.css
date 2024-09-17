@@ -127,7 +127,7 @@ body {
 .animals {
     display: flex;
     justify-content: center;
-    padding: 25px 0;
+    padding: 0 ;
     flex-wrap: wrap;
     gap: 35px;
 }
@@ -172,7 +172,7 @@ body {
 }
 
 .section4 {
-    margin: 60px 10%;
+    margin: 60px 20%;
     padding: 10px 50px;
     background-color: #2d5cdd;
     display: flex;
