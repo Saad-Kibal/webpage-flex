@@ -10,8 +10,8 @@ body {
 }
 
 .c {
-    padding: 10px 10%;
-    height: auto;
+    padding: 0% 10%;
+    height: fit-content;
 }
 
 
