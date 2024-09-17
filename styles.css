@@ -9,13 +9,16 @@ body {
     flex: 1;
 }
 
+.c {
+    padding: 10px 10%;
+}
+
 
 
 .section1 {
     background-color: #535351;
     display: flex;
     flex-direction: column;
-    padding: 10px 200px 40px;
     margin: 10px;
     border-radius: 10px;
     flex: 1;
@@ -24,7 +27,7 @@ body {
 .header-list {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     flex: 1 ;
 }
 
@@ -75,7 +78,7 @@ body {
 }
 
  button {
-    background-color: #0aa3eb;
+    background-color: #ee8fe1;
     color: white;
     border-style: solid;
     border-radius: 5px;
@@ -102,7 +105,6 @@ body {
 }
 
 .section2 {
-   padding: 5px 200px 40px;;
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -145,7 +147,6 @@ body {
 }
 
 .section3 {
-    padding: 50px 200px ;
     background-color: #e5e7eb;
     display: flex;
     flex-direction: column;
@@ -169,7 +170,7 @@ body {
 .section4 {
     margin: 70px 250px;
     padding: 10px 50px;
-    background-color: #0aa3eb;
+    background-color: #456bd4;
     display: flex;
     justify-content: space-between;
     align-content: center;
@@ -190,7 +191,6 @@ body {
 }
 
 .footer {
-    padding: 3px 200px 3px;
     background-color: #1f2937;
     color: #e0e0e0;
     flex: 1;
